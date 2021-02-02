@@ -1,20 +1,132 @@
+html {
+    background-color: white;
+}
+
 body {
-    color: lightblue;
+    background-color: #ede6e6;
+    margin: 0 auto;
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1,
-h2 {
-    font-family: verdana;
-    color: antiquewhite;
-    background-color: darkcyan;
+a {
+    text-decoration: none;
+    color: #373535;
 }
 
-h2 {
-    color: lightcoral
+header {
+    height: 150px;
+    padding-top: 20px;
 }
 
-p {
-    color: darkolivegreen;
-    font-family: Tahoma;
-    font-size: 25px;
+ul {
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    font-size: 16px;
+}
+
+header li:first-child {
+    border-right: 1px solid #373535;
+}
+
+.left {
+    width: 320px;
+    float: left;
+}
+
+.right {
+    width: 320px;
+    float: right;
+}
+
+.left ul {
+    padding-left: 30px;
+    padding-top: 90px;
+}
+
+.right ul {
+    float: right;
+    padding-right: 30px;
+    padding-top: 90px;
+}
+
+#logo {
+    width: 320px;
+    float: left;
+    text-align: center;
+    color: red;
+    font-size: 36px;
+}
+
+#logo p {
+    margin: 0;
+}
+
+/* CONTENT */
+
+#main {
+    background-image: url("./../img/dishes.jpg");
+    height: 438px;
+}
+
+form {
+    padding-top: 30px;
+    text-align: center;
+}
+
+#email {
+    width: 220px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.box {
+    position: relative;
+    float: left;
+    margin: 15px 0;
+}
+
+
+.box img {
+    position: relative;
+    z-index: 1;
+    margin-left: 15px;
+}
+
+.box p {
+    position: absolute;
+    width: 100%;
+    top: 12px;
+    z-index: 2;
+    text-align: center;
+    font-size: 24px;
+    margin: 15px;
+}
+
+.middle p {
+    color: white;
+}
+
+/*FOOTER*/
+
+footer {
+    font-size: 16px;
+    text-align: center;
+}
+
+footer li {
+    border-right: 1px solid #373535;
+}
+
+footer li:last-child {
+    border-right: none;
+}
+
+footer {
+    background-image: #e5e0e0;
+    padding-top: 20px;
 }
