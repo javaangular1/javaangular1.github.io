@@ -1,0 +1,31 @@
+/*Class selector*/
+
+.header {
+    background-color:lightslategray;
+    color: burlywood;
+}
+
+.p1 {
+    color: blue;
+    font-family: Verdana;
+}
+
+.p2 {
+    color: red;
+    font-size: 500;
+    font-family: Tahoma;
+}
+
+/* ID selector */
+
+#header {
+    color:red;
+}
+
+#p1 {
+    color: yellow;
+}
+
+#p2 {
+    color: bisque;
+}

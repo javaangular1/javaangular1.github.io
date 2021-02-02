@@ -1,5 +1,6 @@
 body {
-    color: lightblue;
+    /* This color is inherited by all body elements  */
+    color: blue;
 }
 
 h1,
@@ -13,8 +14,10 @@ h2 {
     color: lightcoral
 }
 
+
 p {
-    color: darkolivegreen;
+    /* Overriding the body color */
+    color:  red;  
     font-family: Tahoma;
     font-size: 25px;
 }

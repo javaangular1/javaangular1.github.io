@@ -1,0 +1,12 @@
+h1 {
+    background-color: red;
+    border-color: blue;
+    border-width: 3px;
+    border-style: dashed;
+}
+
+h2 {
+    border-top-color: green;
+    border-top-style: dotted;
+    border-top-width: 4px;
+}
